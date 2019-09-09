@@ -14,13 +14,33 @@ body > header {
   max-height: 400px;
   background-color: rgb(219, 100, 9);
   overflow: hidden;
+  border-top: 15px;
+  border-bottom: 15px;
+  border-top-style: solid;
+  border-bottom-style: solid;
 }
 
-body > header > h1 {
+body > header h1 {
   margin: 0;
   line-height: 350px;
   text-align: center;
   font-size: 4em;
+}
+
+
+body article {
+  margin: 46px 0px 0px 30px;
+  max-width: 500px;
+}
+
+body article > h1 {
+  padding-top: 40px;
+  font-size: 2.5em;
+  width: 600px;
+}
+
+body article > p {
+  font-size: 2em;
 }
 
 ul {
