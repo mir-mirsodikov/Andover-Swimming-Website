@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+article, aside, figcaption, figure, footer, header, main, nav, section {
+  display: block;
+}
+
+ol, ul {
+  list-style-type: none;
+}

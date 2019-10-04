@@ -1,41 +1,38 @@
 @charset "UTF-8";
 
-
-body header > div.back {
-  z-index: -1;
+div.row {
+  clear: both;
 }
 
-body header > nav.front {
-  z-index: 0;
+div.row::after {
+  clear: both;
+  content: "";
+  display: table;
 }
 
-body header > div > img#andover {
+div[class^="col-"] {
   float: left;
-  position: relative;
-  left: 6em;
 }
 
-body header > div > img#andover_central {
-  float: right;
-  position: relative;
-  right: 8em;
+div.col-1-2 {width: 50%;}
+
+div.calendar iframe {
+  margin-left: 10%;
+  margin-top: 0%;
 }
 
-body header > div > img {
-  position: absolute;
-  top: -270px;
-  max-width: 100%;
-  height: 12em;
+div.calendar h2 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 2.2em;
 }
 
-#calendar {
-  float: right;
-  padding-right: 50px;
-  position: relative;
-  bottom: 450px;
-  width: 500;
+section img#andover {
+  margin-left: 10%;
+  width: 80%;
 }
 
-body > div#index_article {
-  height: 500px;
+section img#andover_central {
+  margin-left: 20%;
+  width: 56%;
 }
