@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+article h2 {
+  display: block;
+  width: 50%;
+  text-align: center;
+  font-size: 2em;
+  margin-top: 4%;
+  margin-left: 2%;
+}
+
+article#schedule h2 {
+  text-align: left;
+  margin-left: 2%;
+}
+
+article ul {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+article li {
+  margin-top: 0;
+  padding: 2% 0% 2% 0%;
+  height: 100%;
+  width: 100%;
+}
+
+article h3, article p {
+  display: block;
+  margin-left: 2%;
+  margin-top: 0;
+}
+
+article li:nth-child(odd) {
+  background-color: #D3D3D3;
+
+}
+
+article li:nth-child(even) {
+  background-color: white;
+}
+
+article#schedule h3 {
+  font-family: "Montserrat-Bold";
+}

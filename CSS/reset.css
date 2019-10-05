@@ -7,6 +7,11 @@
   src: url("../Fonts/Montserrat/Montserrat-Regular.ttf") format('truetype');
 }
 
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../Fonts/Montserrat/Montserrat-Bold.ttf") format('truetype');
+}
+
 html, body, article, aside, figcaption, figure, footer, header, main, nav, section {
   display: block;
   -webkit-box-sizing: border-box;
@@ -41,4 +46,8 @@ header {
 
 header nav {
   width: 100%;
+}
+
+a {
+  text-decoration: none;
 }

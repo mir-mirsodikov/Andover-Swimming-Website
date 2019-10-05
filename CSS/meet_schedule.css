@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+article h2 {
+  display: block;
+  width: 50%;
+  font-size: 2em;
+  margin-top: 4%;
+  margin-left: 4%;
+}
+
+article ul {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
