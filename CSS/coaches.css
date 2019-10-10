@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+ div.row {
+  clear: both;
+}
+
+div.row::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+div[class^="col-"] {
+  float: left;
+}
+
+div.col-1-6 {width: 16.66%;}
+div.col-2-3 {width: 66.67%;}
+div.col-1-2 {width: 50%;}
+
+div {
+  height: 100%;
+}
+
+article img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+article h2, article p {
+  margin-left: 5%;
+}
+
+article h2 {
+  margin-top: 10%;
+  font-size: 2.5em;
+}
+
+/*
+article img {
+  display: block;
+  position: relative;
+  margin-left: 20%;
+}
+
+article p {
+  display: block;
+  position: relative;
+  outline: 1px solid blue;
+} */

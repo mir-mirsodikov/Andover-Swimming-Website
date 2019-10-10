@@ -47,3 +47,7 @@ article li:nth-child(even) {
 article#schedule h3 {
   font-family: "Montserrat-Bold";
 }
+
+article#schedule a, article#schedule a:visited {
+  color: red;
+}
