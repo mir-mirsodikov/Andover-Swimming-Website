@@ -93,3 +93,16 @@ footer p {
   font-size: 1.2em;
   padding-top: 1.2%;
 }
+
+/* I dont know */
+
+@media only screen and (max-width: 480px) {
+  header h1 {
+    font-size: 3em;
+  }
+
+  header img {
+    display: block;
+    width: 50%;
+  }
+}
