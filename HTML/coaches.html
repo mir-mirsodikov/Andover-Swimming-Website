@@ -5,14 +5,17 @@
     <meta charset="utf-8" />
     <meta name="keywords" content="Andover, swimming, high school, coaches" />
     <title>Coaches</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="../CSS/layout.css" rel="stylesheet" />
     <link href="../CSS/coaches.css" rel="stylesheet" />
+    <link media="only screen and (max-width: 480px)" href="../CSS/layout_mobile.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="dropdown">
+        <button class="dropbtn">&#9776;</button>
+        <ul class="dropdown-content">
           <li><a href="index.html">Home</a></li>
           <li><a href="announcements.html">Announcements</a></li>
           <li><a href="meet_schedule.html">Meet Schedule</a></li>
@@ -26,7 +29,7 @@
       <h1>Coaches</h1>
     </header>
 
-    <article>
+    <article id="coaches">
       <div class="row">
         <div class="col-1-6">
           <p></p>
@@ -34,7 +37,7 @@
         <div class="col-1-6">
           <img src="../Images/craig.jpg" alt="">
         </div>
-        <div class="col-1-2">
+        <div class="col-1-2" id="description">
           <h2>Head Coach Allison Craig</h2>
           <p>Hi all! My name is Allison and I coach and teach at Andover Central High School.
             I am in the middle of my second year teaching 9th and 10th grade English.

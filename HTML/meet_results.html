@@ -5,14 +5,16 @@
     <meta charset="utf-8">
     <meta name="keywords" content="Andover, swimming, high school, meet results" />
     <title>Meet Results</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="../CSS/layout.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
+    <link media="only screen and (max-width: 480px)" href="../CSS/layout_mobile.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="dropdown">
+        <button class="dropbtn">&#9776;</button>
+        <ul class="dropdown-content">
           <li><a href="index.html">Home</a></li>
           <li><a href="announcements.html">Announcements</a></li>
           <li><a href="meet_schedule.html">Meet Schedule</a></li>

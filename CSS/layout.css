@@ -93,3 +93,9 @@ footer p {
   font-size: 1.2em;
   padding-top: 1.2%;
 }
+
+/* Hide button */
+
+.dropbtn {
+  display: none;
+}

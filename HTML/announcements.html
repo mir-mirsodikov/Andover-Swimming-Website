@@ -5,14 +5,17 @@
     <meta charset="utf-8" />
     <meta name="keywords" content="Andover, swimming, high school, announcements" />
     <title>Announcements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="../CSS/layout.css" rel="stylesheet" />
     <link href="../CSS/announcements.css" rel="stylesheet" />
+    <link media="only screen and (max-width: 480px)" href="../CSS/layout_mobile.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="dropdown">
+        <button class="dropbtn">&#9776;</button>
+        <ul class="dropdown-content">
           <li><a href="index.html">Home</a></li>
           <li><a href="announcements.html">Announcements</a></li>
           <li><a href="meet_schedule.html">Meet Schedule</a></li>
@@ -23,11 +26,15 @@
       </nav>
 
       <img src="../Images/pool.jpg" alt="" />
-      <h1>Announcements</h1>
+      <h1 id="announcements">Announcements</h1>
     </header>
 
     <article>
       <ul>
+        <li>
+          <h3>October 28, 2019</h3>
+          <p>So far, mobile optimization is not too bad</p>
+        </li>
         <li>
           <h3>October 23, 2019</h3>
           <p>Time to make this workable on mobile web browsers.</p>

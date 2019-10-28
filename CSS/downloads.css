@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+ul li {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  list-style-type: circle;
+}
+
+article ul a {
+  color: blue;
+}
+
+article ul a:visited {
+  color: blue;
+}

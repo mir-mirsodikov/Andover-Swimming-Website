@@ -8,12 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="../CSS/layout.css" rel="stylesheet" />
     <link href="../CSS/index.css" rel="stylesheet" />
+    <link media="only screen and (max-width: 480px)" href="../CSS/layout_mobile.css" type="text/css" rel="stylesheet" />
   </head>
 
   <body>
     <header>
-      <nav>
-        <ul>
+      <nav class="dropdown">
+        <button class="dropbtn">&#9776;</button>
+        <ul class="dropdown-content">
           <li><a href="index.html">Home</a></li>
           <li><a href="announcements.html">Announcements</a></li>
           <li><a href="meet_schedule.html">Meet Schedule</a></li>
@@ -29,12 +31,12 @@
 
     <article>
       <div class="row">
-        <div class="col-1-2">
+        <div class="col-1-2" id="info">
           <section>
             <h1>Welcome to the official site of Andover Swimming</h1>
             <p>Find meet schedules, results, general announcements, and more here!</p>
 
-            <div class="row">
+            <div class="row" id="images">
               <div class="col-1-2">
                 <img src="../Images/andover_high_school.png" alt="" id="andover"/>
               </div>
@@ -61,19 +63,3 @@
 
   </body>
 </html>
-
-<!--style="border-width:0" width="500" height="600" frameborder="0" scrolling="no"  -->
-
-<!-- <div class="col-1-6">
-<p></p>
-</div>
-<div class="col-2-3">
-<div class="calendar">
-<h2>See Some Upcoming Events</h2>
-<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FChicago&amp;src=bWlya2FtdWRpa0BnbWFpbC5jb20&amp;src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237CB342&amp;color=%23F6BF26&amp;color=%234285F4&amp;showTitle=0"></iframe>
-</div>
-</div>
-<div class="col-1-6">
-<p></p>
-</div>
-</div> -->

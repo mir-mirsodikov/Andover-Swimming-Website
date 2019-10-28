@@ -28,7 +28,6 @@ article h3, article p {
 
 article li:nth-child(odd) {
   background-color: #D3D3D3;
-
 }
 
 article li:nth-child(even) {
