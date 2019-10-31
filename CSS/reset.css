@@ -13,10 +13,10 @@
 }
 
 html, body, article, aside, figcaption, figure, footer, header, main, nav, section {
-  display: block;
+  /* display: block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box; */
 }
 
 li {

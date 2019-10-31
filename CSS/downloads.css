@@ -1,9 +1,14 @@
 @charset "UTF-8";
 
-ul li {
+article {
+  display: block;
+  clear: both;
   margin-left: 5%;
-  margin-bottom: 2%;
+}
+
+ul li {
   list-style-type: circle;
+  margin-bottom: 2%;
 }
 
 article ul a {
